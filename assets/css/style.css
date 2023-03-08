@@ -1,0 +1,416 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+}
+
+/* common */
+.line-highlight {
+  width: 100px;
+  height: 1px;
+  margin: 30px auto;
+  display: block;
+  background-color: #fff;
+}
+
+.line-highlight.dark {
+  background-color: #806286;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* header */
+.banner {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #86c7ed;
+  color: #fff;
+}
+
+img.slider-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.banner-info {
+  width: 70%;
+  max-width: 1200px;
+  padding: 10px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #1c161d78;
+}
+
+.banner-info h1 {
+  font: 200 6rem/100% cursive;
+}
+
+.banner-info h1 span {
+  font-size: 3rem;
+  line-height: 100%;
+}
+
+.banner-info h2 {
+  font: 300 2rem 'Helvetica', sans-serif;
+}
+
+.banner h3 {
+  margin-bottom: 50px;
+  font: 400 2.5rem cursive;
+}
+
+.celebrate-link {
+  border: 2px solid;
+  padding: 10px 30px;
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  font: 400 1.5rem 'Helvetica', sans-serif;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+.celebrate-link:hover {
+  color: #f00;
+}
+
+/* invitation section */
+.invitation {
+  /* background: url('../images/info-section.JPG') no-repeat; */
+  background: #806286 url('../images/flowers.svg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fceeff;
+  /*#7a61aa4f;*/
+  background-position: 50% 50%;
+}
+
+.invitation .wrapper {
+  padding: 60px 30px 120px;
+}
+
+.invitation h2 {
+  /* color: #806286; */
+  font: 600 4rem cursive;
+}
+
+
+.invited-by {
+  margin-bottom: 30px;
+  font: 400 1.5rem 'Helvetica', sans-serif;
+  /* color: #d0d0d0; */
+}
+
+.with-text {
+  margin-bottom: 10px;
+}
+
+.invitation h3 {
+  margin-bottom: 10px;
+  font: 400 3.5rem cursive;
+}
+
+.no-gifts {
+  font-size: 1.2rem;
+}
+
+/* schedule section */
+.schedule {
+  padding: 120px 0;
+  background-color: #614f76;
+  background: url('../images/propose.jpg') 54% 50% no-repeat;
+  background-size: cover;
+}
+
+.schedule-info {
+  padding: 40px 40px 60px;
+  margin-bottom: 120px;
+  flex-direction: column;
+  background-color: #fff;
+  opacity: .8;
+}
+
+.schedule-heading {
+  margin-bottom: 50px;
+  flex-direction: column;
+  opacity: .8;
+}
+
+.schedule-heading h2 {
+  font: 900 2.8rem cursive;
+  letter-spacing: 2px;
+}
+.schedule-info:last-of-type {
+  margin-bottom: 0;
+}
+
+.schedule-info:hover {
+  opacity: .9;
+}
+
+.schedule-info h2 {
+  color: #581e64;
+  font: 900 1.8rem cursive;
+  letter-spacing: 2px;
+}
+
+.schedule-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.schedule-details>div {
+  width: 30%;
+  flex-direction: column;
+}
+
+.schedule-details-title {
+  margin-bottom: 10px;
+  font: 400 1.2rem 'Helvetica', sans-serif;
+  color: #cb3030;
+}
+
+.schedule-details-desc {
+  text-align: center;
+  font: 400 1.2rem 'Helvetica', sans-serif;
+  color: #655368;
+}
+
+.schedule-map-icon {
+  width: 8%;
+  position: relative;
+  top: -10px;
+}
+
+.ceremony-icon {
+  margin-bottom: 10px;
+}
+
+
+/* location section */
+.location {
+  background: #806286 url('../images/flowers.svg') no-repeat;
+  background-size: cover;
+  color: #fceeff;
+  text-align: center;
+  background-position: 50% 50%;
+}
+
+.location .wrapper {
+  padding: 20px 30px 20px;
+}
+
+.location .heading {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.location h2 {
+  font: 600 4rem/110% cursive;
+}
+
+.location address {
+  width: 35%;
+  min-width: 340px;
+  margin: auto;
+  font: 400 1.2rem/1.5rem 'Helvetica', sans-serif;
+}
+
+.location address a {
+  color: #38d3c9;
+}
+
+.kora-kendra-img-wrapper {
+  width: 45%;
+  float: right;
+}
+
+.kora-kendra-img-wrapper>img {
+  width: 100%;
+  height: 100%;
+}
+
+.location .by-ways {
+  margin-bottom: 30px;
+}
+
+.location ul {
+  list-style-type: disclosure-closed;
+  list-style-position: inside;
+}
+
+.location ul li {
+  margin-bottom: 5px;
+  font: 400 1.2rem 'Helvetica', sans-serif;
+  /* color: #d0d0d0; */
+}
+
+.location h3 {
+  margin-bottom: 20px;
+  font: 400 2.2rem 'Helvetica', sans-serif;
+}
+
+.location h4 {
+  margin-bottom: 10px;
+  font: 400 1.5rem 'Helvetica', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  .banner-info {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+
+  img.slider-img {
+    height: calc(100vh - 60px);
+  }
+
+  .banner-info h1 {
+    margin-bottom: 15px;
+    font-size: 3rem;
+  }
+
+  .banner-info h1 span {
+    margin-top: 10px;
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .banner-info h2 {
+    font-size: 1rem;
+  }
+
+  .line-highlight {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .banner h3 {
+    margin-bottom: 30px;
+    font-size: 1.75rem;
+  }
+
+  .celebrate-link {
+    font-size: .9rem;
+  }
+
+  .invitation .wrapper {
+    padding: 60px 0;
+  }
+
+  .invitation h2 {
+    font-size: 2rem;
+  }
+
+  .invited-by {
+    font-size: .9rem;
+  }
+
+  .invitation h3 {
+    font-size: 1.75rem;
+  }
+
+  .no-gifts {
+    font-size: .8rem;
+  }
+
+  .schedule {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .schedule-info {
+    padding: 20px 20px 30px;
+    margin-bottom: 30px;
+  }
+
+  .schedule-info h2 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  .schedule-details {
+    justify-content: space-between;
+    align-items: flex-start;
+
+  }
+
+  .schedule-details-title {
+    font-size: 1rem;
+  }
+
+  .schedule-details-desc {
+    font-size: .9rem;
+  }
+  
+  .schedule-map-icon{
+    width: 12%;
+    position: relative;
+    top: -5px;
+  }
+
+  .location .wrapper {
+    padding: 16px 0;
+  }
+
+  .schedule-details>div {
+    width: 30%;
+
+  }
+
+  .location h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+
+  .location address {
+    width: auto;
+    min-width: auto;
+    font-size: .9rem;
+    line-height: 1.2rem;
+  }
+
+  .location .by-ways {
+    margin-bottom: 20px;
+  }
+
+  .location h3 {
+    font-size: 1.5rem;
+  }
+
+  .location h4 {
+    font-size: 1rem;
+  }
+
+  .location ul li {
+    font-size: .9rem;
+  }
+}

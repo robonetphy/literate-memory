@@ -1,0 +1,31 @@
+{
+  "short_name": "Jayshree & Aniruddha's Wedding",
+  "name": "Jayshree & Aniruddha's Wedding: Invitation, Schedule, Location details",
+  "start_url": ".",
+  "icons": [
+    {
+      "src": "assets/images/fav/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "assets/images/fav/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/fav/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "assets/images/fav/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+  ],
+  "background_color": "#fff",
+  "theme_color": "#806286",
+  "display": "standalone",
+  "description": "The honor of your presence is requested at the marriage of Jayshree &amp; Aniruddha"
+}
